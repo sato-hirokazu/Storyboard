@@ -1,3 +1,25 @@
+# all
+.envrc
+.env
+.README.md
+.idea/*
+bic-pf.tar.gz
+gulp-cache
+jmeter.log
+/var/*
+
+# auth
+
+# ca
+co/web-admin/uploads/
+
+# core
+
+# docker
+/docker/.volumes/*
+/docker/.local.yml
+docker-compose.override.ym
+
 /node_modules
 /public/hot
 /public/storage
