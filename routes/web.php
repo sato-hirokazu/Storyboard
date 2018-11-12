@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//
+Route::get('login/github', 'OAuthLoginController@redirectToProvider');
+Route::get('login/github/callback', 'OAuthLoginController@handleProviderCallback');
+
+
 //Twitter
 Route::get('auth/twitter', 'OAuthLoginController@getAuth');
 Route::get('auth/callback/twitter', 'OAuthLoginController@authCallback');
