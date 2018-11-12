@@ -46,7 +46,7 @@ return [
     'github' => [
         'client_id' => env('GITHUB_CLIENT_ID'),         // GitHubのClient ID
         'client_secret' => env('GITHUB_CLIENT_SECRET'), // GitHubのClient Secret
-        'redirect' => 'http://localhost:8088/',
+        'redirect' => 'http://localhost:8088/login/github',
     ],
     'twitter' => [
       'client_id'     => env('TWITTER_API_KEY'),
