@@ -20,6 +20,7 @@ co/web-admin/uploads/
 /docker/.local.yml
 docker-compose.override.ym
 /docker/mysql/*
+docker/mysql/
 
 /node_modules
 /public/hot
