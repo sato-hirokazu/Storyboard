@@ -40,4 +40,30 @@ return [
         ],
     ],
 
+    /**
+     * socialite Settings
+    */
+    'github' => [
+        'client_id' => env('GITHUB_CLIENT_ID'),         // GitHubのClient ID
+        'client_secret' => env('GITHUB_CLIENT_SECRET'), // GitHubのClient Secret
+        'redirect' => 'http://localhost:8088/login/github',
+    ],
+    'twitter' => [
+      'client_id'     => env('TWITTER_API_KEY'),
+      'client_secret' => env('TWITTER_API_SECRET'),
+      'redirect'      => env('TWITTER_CALLBACKURL'),
+    ],
+
+    'facebook' => [
+      'client_id'     => env('FACEBOOK_API_ID'),
+      'client_secret' => env('FACEBOOK_API_SECRET'),
+      'redirect'      => env('FACEBOOK_CALLBACKURL'),
+    ],
+
+    'google' => [
+      'client_id'     => env('GOOGLEPLUS_API_ID'),
+      'client_secret' => env('GOOGLEPLUS_API_SECRET'),
+      'redirect'      => env('GOOGLEPLUS_CALLBACKURL'),
+    ],
+
 ];
