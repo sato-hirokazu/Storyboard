@@ -1,4 +1,4 @@
-FROM php:7.2.8-fpm
+FROM php:7.4.33-fpm
 COPY php.ini /usr/local/etc/php/
 
 # install composer
