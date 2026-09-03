@@ -19,7 +19,7 @@ services:
             - ./:/var/www/html
 
     mysql:
-        image: mysql:9.5
+        image: mysql:9.7
         volumes:
             - ./docker/mysql:/var/lib/mysql
         environment:
